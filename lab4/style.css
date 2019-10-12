@@ -122,3 +122,9 @@ display: block;
   margin: 0 auto;
   text-align: justify;
 }
+.validation
+{
+	background-color: d80ee3;
+	padding: 2px 2px 2px 20px;
+	border: 1px #777 solid;
+}
