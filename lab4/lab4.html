@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<style>
+.style_box
+{
+background-color: 42ecf5;
+padding: 2px 2px 2px 20px;
+border: 1px #00d9de solid;
+}
+.g_box
+{
+display: none;
+}
+.g_box:target
+{
+display: block;
+}
+.main
+{
+  width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+}
+		</style>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Лабораторная №4</title>
+	</head>
+	<body>
+		<div class="main">
+			<p>
+				На этом сайте есть секрет
+			</p>
+			<a href="#box">Открыть</a>
+				<div class="g_box" id="box">
+					<p class="#style_box">
+						Молодец, ты нашёл
+						<br>
+						<br>
+						Мне не понравился этот секрет!
+						<a href>Закрыть</a>
+					</p>
+				</div>
+		</div>
+	</body>
+</html>
