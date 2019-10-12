@@ -54,41 +54,41 @@ right:50px;
  }
  .p_check
  {
-   width: 100%;
+  	width: 100%;
 	min-height: 150px;
 	background-color: yellow;
 	float: left;
 }
 .p_block
 {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 .p_one
 {
   background-color: #42ecf5;
   font-family: cursive;
-  font-size: 22px;
+  font-size: 25px;
   color: white;
-  text-indent: 20px;
-  line-height: 27px;
+  text-indent: 30px;
+  line-height: 30px;
 }
 .p_two
 {
   background-color: black;
   font-family: fantasy;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
-  text-indent: 20px;
-  line-height: 21px;
+  text-indent: 35px;
+  line-height: 35px;
 }
 .p_three
 {
   background-color: purple;
   font-family: monospace;
-  font-size: 12px;
+  font-size: 15px;
   color: white;
-  text-indent: 20px;
-  line-height: 17px;
+  text-indent: 40px;
+  line-height: 40px;
 }
 .p_one:hover
 {
