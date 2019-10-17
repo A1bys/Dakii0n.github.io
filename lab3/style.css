@@ -66,6 +66,7 @@ right:50px;
 .p_one
 {
   background-color: #42ecf5;
+  align: left;
   font-family: cursive;
   font-size: 25px;
   color: white;
@@ -75,6 +76,7 @@ right:50px;
 .p_two
 {
   background-color: black;
+  align: center;
   font-family: fantasy;
   font-size: 20px;
   color: white;
@@ -84,6 +86,7 @@ right:50px;
 .p_three
 {
   background-color: purple;
+  align: right;
   font-family: monospace;
   font-size: 15px;
   color: white;
