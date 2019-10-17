@@ -63,7 +63,7 @@ right:50px;
 {
     margin-top: 30px;
 }
-.p_one
+p_one
 {
   background-color: #5eff18;
   align: left;
@@ -73,7 +73,7 @@ right:50px;
   text-indent: 30px;
   line-height: 30px;
 }
-.p_two
+p_two
 {
   background-color: black;
   align: center;
@@ -83,7 +83,7 @@ right:50px;
   text-indent: 35px;
   line-height: 35px;
 }
-.p_three
+p_three
 {
   background-color: purple;
   align: right;
