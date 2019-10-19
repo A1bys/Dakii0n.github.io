@@ -70,8 +70,8 @@ right:50px;
   font-family: cursive;
   font-size: 25px;
   color: white;
-  text-indent: 30px;
-  line-height: 30px;
+  text-indent: 25px;
+  line-height: 25px;
 }
 .p_two
 {
@@ -90,8 +90,8 @@ right:50px;
   font-family: monospace;
   font-size: 15px;
   color: white;
-  text-indent: 40px;
-  line-height: 40px;
+  text-indent: 45px;
+  line-height: 45px;
 }
 .p_one:hover
 {
