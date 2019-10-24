@@ -1,0 +1,130 @@
+body
+	{
+		background: url(/lab0/background.gif);
+		-moz-background-size:    cover;
+		-webkit-background-size: cover;
+		-o-background-size:      cover;
+		background-size:         cover;
+		background-height:       cover;
+		text-align:             center;
+	}
+img
+{
+		width:  1000px;
+		height:  500px;
+}
+b
+{
+    font: bold 1em "BatmanForever",serif;
+    font-weight: 400;
+    font-stretch: expanded;
+}
+.VisibleText
+{
+	text-shadow: 2px 0 0 #fff;
+	font-size: 30px;
+}
+.DivBackground
+{
+	background-color: rgba(100%,100%,100%,0.7);
+	border: 1px solid #B0C4DE;
+	padding: 0px;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 5px;
+}
+.abc
+{
+    font: bold 2.5em "Martyricpersonal",serif;
+    font-weight: 400;
+    font-stretch: expanded;
+}
+.buttonup
+{
+width:100px; 
+height:50px;
+position:fixed;
+bottom:20px;
+right:50px;
+}
+.transparent
+{
+    filter: alpha(Opacity=50);
+    opacity: 0.5; 
+ }
+ .p_check
+ {
+   width: 100%;
+	min-height: 150px;
+	background-color: yellow;
+	float: left;
+}
+.p_block
+{
+    margin-top: 25px;
+}
+.p_one
+{
+  background-color: #42ecf5;
+  font-family: cursive;
+  font-size: 22px;
+  color: white;
+  text-indent: 20px;
+  line-height: 27px;
+}
+.p_two
+{
+  background-color: black;
+  font-family: fantasy;
+  font-size: 16px;
+  color: white;
+  text-indent: 20px;
+  line-height: 21px;
+}
+.p_three
+{
+  background-color: purple;
+  font-family: monospace;
+  font-size: 12px;
+  color: white;
+  text-indent: 20px;
+  line-height: 17px;
+}
+.p_one:hover
+{
+    background-color: #42ecf5;
+}
+.p_two:hover
+{
+    background-color: #42ecf5;
+}
+.p_three:hover
+{
+    background-color: #42ecf5;
+}
+.style_box
+{
+background-color: 42ecf5;
+padding: 2px 2px 2px 20px;
+border: 1px #00d9de solid;
+}
+.g_box
+{
+display: none;
+}
+.g_box:target
+{
+display: block;
+}
+.main
+{
+  width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+}
+.validation
+{
+	background-color: d80ee3;
+	padding: 2px 2px 2px 20px;
+	border: 1px #777 solid;
+}
