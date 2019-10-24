@@ -128,3 +128,7 @@ display: block;
 	padding: 2px 2px 2px 20px;
 	border: 1px #777 solid;
 }
+p
+{
+	text-color: white;
+}
