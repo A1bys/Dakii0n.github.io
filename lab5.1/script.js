@@ -1,4 +1,4 @@
-var RightAnswer = [["a1"],["a2"],["a2"],["Железной"],["8"],["a2"],["a1"],["a2"],["a3"],["a2"],["a1"],["a2"]];
+var RightAnswer = [["a1"],["a2"],["a2"],["Железной"],["8"],["a2"],["a1"],["a2"],["a3"],["a1"],["a1"],["a2"]];
 function check()
 {
 	var kforms = document.forms.length;
