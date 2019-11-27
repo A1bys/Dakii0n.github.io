@@ -46,12 +46,12 @@ var tabarr;
                 let status;
                 if (flag == 1)
 				{
-                    img.src = "./lab6/sprites/krest.png"
+                    img.src = "../lab6/sprites/krest.png"
                     flag = 0;
                     event.target.status = "krest"
                 } else
 				{
-                    img.src = "./lab6/sprites/crug.png"
+                    img.src = "../lab6/sprites/crug.png"
                     flag = 1;
                     event.target.status = "crug"
                 }
