@@ -55,8 +55,8 @@ var tabarr;
                     flag = 1;
                     event.target.status = "crug"
                 }
-                img.style.height = "100px";
-                img.style.width = "100px";
+                img.style.height = "100%";
+                img.style.width = "100%";
                 event.target.appendChild(img);
                 checkwin(event.target, 1, 0);
                 checkwin(event.target, 0, 1);
