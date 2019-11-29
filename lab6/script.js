@@ -25,8 +25,8 @@ var tabarr;
                 for (let j = 0; j < w; j++)
 				{
                     let newcell = document.createElement("td");
-                    newcell.width = siz;
-                    newcell.height = siz;
+                    newcell.width = 100px;
+                    newcell.height = 100px;
                     newcell.setAttribute("x", j);
                     newcell.setAttribute("y", i);
                     newcell.setAttribute("status", "empty");
