@@ -25,10 +25,7 @@ var tabarr;
                 for (let j = 0; j < w; j++)
 				{
                     let newcell = document.createElement("td");
-                    newcell.width = 100%;
-                    newcell.height = 100%;
-                    newcell.setAttribute("x", j);
-                    newcell.setAttribute("y", i);
+                    
                     newcell.setAttribute("status", "empty");
                     tabarr[i][j] = newcell;
                     newline.appendChild(newcell);
