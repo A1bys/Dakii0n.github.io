@@ -2,6 +2,7 @@ var tabarr;
         var flag = 1;
         var h;
         var w;
+	var win;
         function build()
 		{
             var tab = document.getElementById("tabl");
