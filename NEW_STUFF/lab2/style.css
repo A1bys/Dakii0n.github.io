@@ -1,0 +1,87 @@
+/* Стиль для контейнера приложения */
+.app-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Стиль для таблицы дел */
+.todo-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Стиль для заголовков таблицы */
+.todo-table th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Стиль для строк таблицы */
+.todo-table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Стиль для ячеек таблицы */
+.todo-table td {
+    padding: 10px;
+}
+
+/* Стиль для ввода дел */
+.add-todo {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Стиль для кнопки "Добавить" */
+.add-button {
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Стиль для кнопки "Удалить всё" */
+.delete-all-button {
+    margin-top: 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Стиль для элемента "Не найдено ни одного дела" */
+.no-items-found {
+    display: none;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Стиль для элемента "Не найдено ни одного дела" при отображении */
+.no-items-found.active {
+    display: block;
+}
+
+/* Стиль для блока, который разрешает прокручивать список */
+.scrollable-list {
+    max-height: 300px; /* Максимальная высота списка перед появлением полосы прокрутки */
+    overflow-y: auto;
+}
