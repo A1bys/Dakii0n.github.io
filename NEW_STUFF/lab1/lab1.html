@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<style>
+			body
+			{
+			background: url(/lab0/background.gif);
+			-moz-background-size:    cover;
+			-webkit-background-size: cover;
+			-o-background-size:      cover;
+			background-size:         cover;
+			background-height:       cover;
+			}
+			td
+			{
+				width:  50px;
+				height: 50px;
+			}
+		</style>
+		<div align="center">
+			 <h1 class="page-title">Список дел</h1>
+			<title>Список дел &#10084;</title>
+			<meta charset="UTF-8">
+			<link rel="stylesheet" href="styles.css"> <!-- Подключаем внешний CSS-файл для стилей -->
+			<meta charset="utf-8">
+		</div>
+	</head>
+	<body>
+			<div align="center">
+					<form>
+						<input type="text" class="input-text" placeholder="Новый элемент списка">
+						<button type="button" class="button create-button">Создать</button>
+						<button type="button" class="button clear-button">Очистить все</button>
+					</form>
+			</div>
+			<div>
+				<ol class="task-list">
+					<li class="task">
+						<input type="checkbox" id="task1" name="task1">
+						<label for="task1" class="task-label">Почесать кошку</label>
+						<button type="button" class="button delete-button">&#10060;</button>
+					</li>
+					<li class="task">
+						<input type="checkbox" id="task2" name="task2">
+						<label for="task2" class="task-label">Полить картошку</label>
+						<button type="button" class="button delete-button">&#10060;</button>
+					</li>
+					<li class="task">
+						<input type="checkbox" id="task3" name="task3">
+						<label for="task3" class="task-label">Сложить в лукошко</label>
+						<button type="button" class="button delete-button">&#10060;</button>
+					</li>
+				</ol>
+			</div>
+	</body>
+</html>
