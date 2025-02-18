@@ -1,6 +1,6 @@
 body
 	{
-		background: url(/lab0/background.gif);
+		background: url(../lab0/background.gif);
 		-moz-background-size:    cover;
 		-webkit-background-size: cover;
 		-o-background-size:      cover;
@@ -54,41 +54,44 @@ right:50px;
  }
  .p_check
  {
-   width: 100%;
+  	width: 100%;
 	min-height: 150px;
 	background-color: yellow;
 	float: left;
 }
 .p_block
 {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 .p_one
 {
-  background-color: #42ecf5;
+  background-color: #5eff18;
+  text-align: left;
   font-family: cursive;
-  font-size: 22px;
+  font-size: 25px;
   color: white;
-  text-indent: 20px;
-  line-height: 27px;
+  text-indent: 25px;
+  line-height: 25px;
 }
 .p_two
 {
-  background-color: black;
+  background-color: #000000;
+  text-align: center;
   font-family: fantasy;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
-  text-indent: 20px;
-  line-height: 21px;
+  text-indent: 35px;
+  line-height: 35px;
 }
 .p_three
 {
-  background-color: purple;
+  background-color: #ff18b0;
+  text-align: right;
   font-family: monospace;
-  font-size: 12px;
+  font-size: 15px;
   color: white;
-  text-indent: 20px;
-  line-height: 17px;
+  text-indent: 45px;
+  line-height: 45px;
 }
 .p_one:hover
 {
@@ -101,42 +104,4 @@ right:50px;
 .p_three:hover
 {
     background-color: #42ecf5;
-}
-.style_box
-{
-background-color: 42ecf5;
-padding: 2px 2px 2px 20px;
-border: 1px #00d9de solid;
-}
-.g_box
-{
-display: none;
-}
-.g_box:target
-{
-display: block;
-}
-.main
-{
-  width: 600px;
-  margin: 0 auto;
-  text-align: justify;
-}
-.validation
-{
-	background-color: d80ee3;
-	padding: 2px 2px 2px 20px;
-	border: 1px #777 solid;
-}
-.text-color
-{
-	color: white;
-}
-.text-header
-{
-	color:#54ff18;
-}
-.header
-{
-	color:#42ecf5
 }

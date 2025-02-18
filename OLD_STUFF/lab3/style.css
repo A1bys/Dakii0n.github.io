@@ -1,6 +1,6 @@
 body
 	{
-		background: url(/lab0/background.gif);
+		background: url(../lab0/background.gif);
 		-moz-background-size:    cover;
 		-webkit-background-size: cover;
 		-o-background-size:      cover;
